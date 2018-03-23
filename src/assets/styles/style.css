@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.bg-l-blue{
+  background-color:#daeaff;
+}
+
+.bg-l-blue-force{
+  background-color:#daeaff !important;
+}
+.bg-efefef{
+  background-color:#efefef;
+}
+
+.text-l-gray{
+  color:#80848e;
+}
+
+.cntr-tooltip{
+  max-width: 250px;
+  line-height:1.4;
+  padding: 6px 10px;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+  background-color: rgba(70,76,91,.9);
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.2);
+  white-space: nowrap;
+}

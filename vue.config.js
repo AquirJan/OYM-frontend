@@ -5,7 +5,12 @@ module.exports = {
     port: 9090,
     https: false,
     hotOnly: false,
-    proxy: null, // string | Object
+    proxy: {
+      '/mip': { //MIP后台接口
+        target: 'http://mipdev9.midea.com:60000',
+        secure: false
+      },
+    }, // string | Object
     before: app => {
       // app is an express instance
     }
